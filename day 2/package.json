@@ -1,0 +1,19 @@
+{
+  "name": "backend-unit-4",
+  "version": "1.0.0",
+  "description": "all backend files in unit 4 //npm install -g nodemon",
+  "main": "index.js",
+  "scripts": {
+    "server" : "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaojiPatil/Backend-Unit-4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaojiPatil/Backend-Unit-4/issues"
+  },
+  "homepage": "https://github.com/RaojiPatil/Backend-Unit-4#readme"
+}

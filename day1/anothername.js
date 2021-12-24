@@ -1,0 +1,3 @@
+function anothername() {
+    console.log(``)
+}

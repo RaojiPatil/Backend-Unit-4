@@ -1,4 +1,6 @@
-const printname1 = require("./myname")
+const makeswandch = require("./makeswandch");
 
-printname1();
+makeswandch.makeswandch();
+
+
 

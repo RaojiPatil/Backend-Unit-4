@@ -1,0 +1,26 @@
+{
+  "name": "Backend-Unit-4",
+  "version": "1.0.0",
+  "description": "all backend files in unit 4 //npm install -g nodemon",
+  "main": "tempCodeRunnerFile.js",
+  "scripts": {
+    "server": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaojiPatil/Backend-Unit-4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaojiPatil/Backend-Unit-4/issues"
+  },
+  "homepage": "https://github.com/RaojiPatil/Backend-Unit-4#readme",
+  "dependencies": {
+    "Express": "^3.0.1",
+    "axios": "^0.24.0",
+    "events": "^3.3.0",
+    "express": "^4.17.2"
+  }
+}

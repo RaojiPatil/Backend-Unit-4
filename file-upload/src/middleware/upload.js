@@ -11,7 +11,7 @@ const storage =  multer.diskStorage({
     }
   });
 
-const fileFilter = (req, file, callback)=>{
+const fileFilter = (req, file, callback)=> {
     if(file.mimetype==="image/jpeg" || file.mimetype==="image/png"){
         callback(null,true);
     }else{
@@ -23,6 +23,6 @@ module.exports = multer({
     storage,
     fileFilter,
     limits:{
-        fileSize:1024*1024*5,
+        fileSize:1024*1024*5,   // 1043 bytes = 1kb * 1024 = 1 mb * 5 = 5MB;
     },
 });

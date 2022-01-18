@@ -21,6 +21,7 @@ usersSchema.pre("save", function (next){
    
 });
 
+
 usersSchema.methods.checkPassword = function(password){
 
     return new Promise((resolve,reject)=>{
